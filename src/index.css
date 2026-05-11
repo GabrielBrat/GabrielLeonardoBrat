@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased transition-colors duration-300;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #0f8fdd transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2ab0ff, #1172b3);
+  border-radius: 100px;
+}
+
+.section-container {
+  @apply mx-auto max-w-6xl px-6 py-24 md:px-8;
+}
+
+.glass {
+  @apply rounded-2xl border border-slate-200/80 bg-white/80 shadow-soft backdrop-blur-xl dark:border-slate-800/80 dark:bg-slate-900/60;
+}
+
+.btn-primary {
+  @apply inline-flex items-center gap-2 rounded-xl bg-brand-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-brand-500;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center gap-2 rounded-xl border border-slate-300 px-4 py-2.5 text-sm font-medium text-slate-700 transition hover:border-brand-400 hover:text-brand-500 dark:border-slate-700 dark:text-slate-200 dark:hover:text-brand-300;
+}
+
+.input-style {
+  @apply w-full rounded-xl border border-slate-300 bg-transparent px-4 py-3 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-brand-500 dark:border-slate-700 dark:text-slate-100;
+}
+
+.contact-link {
+  @apply inline-flex items-center gap-3 rounded-xl border border-slate-300 px-4 py-3 text-sm text-slate-700 transition hover:border-brand-400 hover:text-brand-500 dark:border-slate-700 dark:text-slate-200;
+}
+
+.particle-bg {
+  background-image: radial-gradient(circle at 15% 20%, rgba(42, 176, 255, 0.22) 0, transparent 30%),
+    radial-gradient(circle at 80% 75%, rgba(59, 130, 246, 0.16) 0, transparent 35%);
+  animation: float-bg 14s ease-in-out infinite alternate;
+}
+
+@keyframes float-bg {
+  from {
+    transform: translateY(-12px) scale(1);
+  }
+  to {
+    transform: translateY(12px) scale(1.04);
+  }
+}
