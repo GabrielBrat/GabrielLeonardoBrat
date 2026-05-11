@@ -16,13 +16,13 @@ import ContactSection from "./components/sections/ContactSection";
 import Footer from "./components/sections/Footer";
 
 const navItems = [
-  { id: "hero", label: "Inicio" },
+  { id: "hero", label: "Início" },
   { id: "sobre", label: "Sobre" },
-  { id: "experiencia", label: "Experiencia" },
+  { id: "experiencia", label: "Experiência" },
   { id: "habilidades", label: "Habilidades" },
   { id: "projetos", label: "Projetos" },
   { id: "diferenciais", label: "Diferenciais" },
-  { id: "formacao", label: "Formacao" },
+  { id: "formacao", label: "Formação" },
   { id: "contato", label: "Contato" },
 ];
 
@@ -42,7 +42,7 @@ function App() {
   }, [isDark]);
 
   const metaTitle = useMemo(
-    () => `${profile.name} | Portfolio Profissional`,
+    () => `${profile.name} | Portfólio Profissional`,
     [],
   );
 

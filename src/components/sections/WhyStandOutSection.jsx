@@ -7,9 +7,9 @@ function WhyStandOutSection() {
   return (
     <section id="diferenciais" className="section-container">
       <SectionHeading
-        kicker="Na pratica"
+        kicker="Na prática"
         title="Como eu trabalho"
-        description="Meu jeito de atuar: comunicacao clara, foco em resolver e aprendizado constante no dia a dia."
+        description="Meu jeito de atuar: comunicação clara, foco em resolver e aprendizado constante no dia a dia."
       />
 
       <div className="grid gap-6 md:grid-cols-2">

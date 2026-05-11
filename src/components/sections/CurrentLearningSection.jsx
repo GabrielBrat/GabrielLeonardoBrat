@@ -7,9 +7,9 @@ function CurrentLearningSection() {
   return (
     <section className="section-container">
       <SectionHeading
-        kicker="Evolucao"
+        kicker="Evolução"
         title="O que estou estudando agora"
-        description="Estudo com foco em aplicacao real. O objetivo e ganhar repertorio para atuar como dev no dia a dia."
+        description="Estudo com foco em aplicação real. O objetivo é ganhar repertório para atuar como dev no dia a dia."
       />
       <div className="grid gap-6 md:grid-cols-2">
         <motion.article

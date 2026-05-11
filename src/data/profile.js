@@ -1,25 +1,25 @@
 export const profile = {
   name: "Gabriel Leonardo Bratfisch",
-  role: "Suporte e Implantacao | Migrando para Desenvolvimento",
+  role: "Suporte e Implantação | Migrando para Desenvolvimento",
   location: "Navegantes, Santa Catarina, Brasil",
   email: "gabriel.bratfisch@gmail.com",
   phone: "+55 (47) 99999-9999",
   shortBio:
-    "Trabalho com clientes no dia a dia, implantando sistemas e resolvendo problemas de operacao. Agora estou levando essa base para o desenvolvimento, com projetos praticos em React.",
-  badge: "Transicao para dev | Pratica diaria",
+    "Trabalho com clientes no dia a dia, implantando sistemas e resolvendo problemas de operação. Agora estou levando essa base para o desenvolvimento, com projetos práticos em React.",
+  badge: "Transição para dev | Prática diária",
   longBio: [
-    "Minha rotina e atendimento direto, implantacao e suporte.",
-    "Lido com incidente, ajuste de processo e alinhamento com time tecnico.",
+    "Minha rotina é atendimento direto, implantação e suporte.",
+    "Lido com incidentes, ajuste de processo e alinhamento com time técnico.",
     "Estou migrando para desenvolvimento e aplicando isso em projetos reais de estudo.",
   ],
   highlights: [
     "Atendimento direto ao cliente",
-    "Implantacao de sistemas em operacao real",
-    "Resolucao de problemas sob pressao",
-    "Comunicacao clara com time tecnico e negocio",
+    "Implantação de sistemas em operação real",
+    "Resolução de problemas sob pressão",
+    "Comunicação clara com time técnico e negócio",
   ],
   careerGoals:
-    "Quero atuar como dev sem perder o que aprendi em operacao: entender o problema, priorizar o que importa e entregar algo que funcione na pratica.",
+    "Quero atuar como dev sem perder o que aprendi em operação: entender o problema, priorizar o que importa e entregar algo que funcione na prática.",
   links: {
     linkedin: "https://www.linkedin.com/in/gabriel-leonardo-bratfisch-5104b121b/",
     github: "https://github.com/GabrielBrat",
@@ -30,22 +30,22 @@ export const profile = {
 export const stats = [
   {
     title: "4+ anos",
-    label: "Rotina em tecnologia e operacao",
+    label: "Rotina em tecnologia e operação",
     icon: "briefcase",
   },
   {
-    title: "Implantacoes",
-    label: "Projetos colocados de pe com cliente",
+    title: "Implantações",
+    label: "Projetos colocados de pé com cliente",
     icon: "rocket",
   },
   {
     title: "Atendimento direto",
-    label: "Suporte, diagnostico e acompanhamento de incidente",
+    label: "Suporte, diagnóstico e acompanhamento de incidentes",
     icon: "users",
   },
   {
     title: "Migrando para dev",
-    label: "Estudo com projeto pratico e consistencia",
+    label: "Estudo com projeto prático e consistência",
     icon: "trending-up",
   },
 ];
@@ -53,49 +53,49 @@ export const stats = [
 export const experiences = [
   {
     company: "ConEasy",
-    role: "Analista de Suporte e Implantacao",
+    role: "Analista de Suporte e Implantação",
     period: "Abr 2023 - Atual",
-    location: "Itajai, SC",
+    location: "Itajaí, SC",
     description:
-      "Atuacao direta com cliente desde a implantacao ate o suporte da operacao.",
+      "Atuação direta com cliente desde a implantação até o suporte da operação.",
     responsibilities: [
-      "Implantacao de sistema e onboarding de usuarios",
-      "Atendimento direto e resolucao de incidentes",
-      "Treinamento de usuarios em rotina e boas praticas",
-      "Alinhamento diario entre cliente e time tecnico",
+      "Implantação de sistema e onboarding de usuários",
+      "Atendimento direto e resolução de incidentes",
+      "Treinamento de usuários em rotina e boas práticas",
+      "Alinhamento diário entre cliente e time técnico",
     ],
-    technologies: ["Implantacao de Sistemas", "Atendimento B2B", "Gestao de Incidentes", "Analise de Processos"],
-    results: "Menos retrabalho no dia a dia e operacao mais estavel para o cliente.",
+    technologies: ["Implantação de Sistemas", "Atendimento B2B", "Gestão de Incidentes", "Análise de Processos"],
+    results: "Menos retrabalho no dia a dia e operação mais estável para o cliente.",
   },
   {
     company: "Code Crafters BR",
     role: "Assistente de Projetos e Desenvolvimento",
     period: "Fev 2022 - Jul 2024",
-    location: "Itajai, SC",
+    location: "Itajaí, SC",
     description:
       "Ponte entre demanda operacional e ajustes de interface.",
     responsibilities: [
       "Ajustes front-end para melhorar uso no dia a dia",
       "Triagem de demandas com cliente interno",
-      "Documentacao de fluxo para reduzir erro de operacao",
+      "Documentação de fluxo para reduzir erro de operação",
     ],
-    technologies: ["Atendimento interno", "Documentacao", "HTML", "CSS", "React"],
+    technologies: ["Atendimento interno", "Documentação", "HTML", "CSS", "React"],
     results: "Fluxo mais claro para o time e entregas mais organizadas.",
   },
   {
-    company: "Garthen Industria e Comercio de Maquinas",
+    company: "Garthen Indústria e Comércio de Máquinas",
     role: "Assistente de Compras",
     period: "Ago 2019 - Jan 2022",
     location: "SC",
     description:
-      "Rotina de operacao e compras com foco em controle de processo.",
+      "Rotina de operação e compras com foco em controle de processo.",
     responsibilities: [
-      "Gestao de pedidos e contato com fornecedor",
+      "Gestão de pedidos e contato com fornecedor",
       "Controle de dados para acompanhar prazos",
       "Ajuste de fluxo interno para ganhar agilidade",
     ],
-    technologies: ["Excel", "ERP", "Gestao de processos"],
-    results: "Processo mais padronizado e prazos mais previsiveis.",
+    technologies: ["Excel", "ERP", "Gestão de processos"],
+    results: "Processo mais padronizado e prazos mais previsíveis.",
   },
 ];
 
@@ -105,15 +105,15 @@ export const skillCategories = [
     priority: "alta",
     skills: [
       { name: "Suporte ao Cliente", level: 94 },
-      { name: "Implantacao de Sistemas", level: 92 },
-      { name: "Resolucao de Problemas", level: 91 },
-      { name: "Comunicacao", level: 93 },
-      { name: "Analise de Cenarios", level: 88 },
-      { name: "Treinamento de Usuarios", level: 89 },
+      { name: "Implantação de Sistemas", level: 92 },
+      { name: "Resolução de Problemas", level: 91 },
+      { name: "Comunicação", level: 93 },
+      { name: "Análise de Cenários", level: 88 },
+      { name: "Treinamento de Usuários", level: 89 },
     ],
   },
   {
-    name: "Experiencia pratica",
+    name: "Experiência prática",
     priority: "media",
     skills: [
       { name: "Git e GitHub", level: 76 },
@@ -135,7 +135,7 @@ export const skillCategories = [
 
 export const projects = [
   {
-    name: "Previsao do Tempo",
+    name: "Previsão do Tempo",
     description:
       "Projeto simples para consumir API e exibir dados de clima em tempo real.",
     tech: ["JavaScript", "API", "HTML / CSS"],
@@ -143,20 +143,20 @@ export const projects = [
       "https://images.unsplash.com/photo-1601134467661-3d775b999c8b?auto=format&fit=crop&w=1200&q=80",
     demo: "",
     repo: "https://github.com/GabrielBrat/Previs-o-do-Tempo",
-    repoLabel: "Ver codigo",
+    repoLabel: "Ver código",
     featured: true,
   },
   {
     name: "CineMatch",
     description:
-      "Aplicacao que sugere filmes com base em preferencias, usando IA.",
+      "Aplicação que sugere filmes com base em preferências, usando IA.",
     tech: ["React", "API", "IA"],
     image:
       "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80",
     demo: "https://cinematch-ai-five.vercel.app/",
     demoLabel: "Ver projeto",
     repo: "",
-    repoLabel: "Codigo",
+    repoLabel: "Código",
     featured: true,
   },
   {
@@ -174,8 +174,8 @@ export const projects = [
 
 export const education = [
   {
-    title: "Bacharelado em Analise e Desenvolvimento de Sistemas",
-    institution: "Universidade do Vale do Itajai (UNIVALI)",
+    title: "Bacharelado em Análise e Desenvolvimento de Sistemas",
+    institution: "Universidade do Vale do Itajaí (UNIVALI)",
     period: "2023 - 2026",
   },
   {
@@ -187,46 +187,46 @@ export const education = [
 
 export const certifications = [
   "React e JavaScript moderno (em andamento)",
-  "Fundamentos de cloud computing (estudo pratico)",
-  "Rotina de suporte ERP e processo contabil-fiscal",
+  "Fundamentos de cloud computing (estudo prático)",
+  "Rotina de suporte ERP e processo contábil-fiscal",
 ];
 
 export const languages = [
-  { name: "Portugues", level: "Nativo" },
-  { name: "Ingles", level: "Intermediario (limited working proficiency)" },
+  { name: "Português", level: "Nativo" },
+  { name: "Inglês", level: "Intermediário (limited working proficiency)" },
 ];
 
 export const learningNow = [
-  "React com foco em componente reutilizavel",
+  "React com foco em componente reutilizável",
   "JavaScript para resolver problema real de tela e fluxo",
   "Git e GitHub na rotina de projeto",
-  "APIs e integracao em projeto de estudo",
+  "APIs e integração em projeto de estudo",
 ];
 
 export const stackFocus = [
   "Atendimento ao Cliente",
-  "Implantacao de Sistemas",
-  "Resolucao de Problemas",
-  "Comunicacao",
+  "Implantação de Sistemas",
+  "Resolução de Problemas",
+  "Comunicação",
   "React (uso em projeto de estudo)",
   "Git/GitHub",
 ];
 
 export const differentiators = [
   {
-    title: "Comunicacao com cliente",
-    description: "Explico problema tecnico sem complicar e mantenho o alinhamento ate resolver.",
+    title: "Comunicação com cliente",
+    description: "Explico problema técnico sem complicar e mantenho o alinhamento até resolver.",
   },
   {
     title: "Aprendizado aplicado",
-    description: "O que estudo vai para projeto. Isso acelera minha evolucao.",
+    description: "O que estudo vai para projeto. Isso acelera minha evolução.",
   },
   {
-    title: "Vivencia de operacao real",
-    description: "Ja lidei com incidente, implantacao e suporte em cenario de pressao.",
+    title: "Vivência de operação real",
+    description: "Já lidei com incidentes, implantação e suporte em cenário de pressão.",
   },
   {
-    title: "Visao de negocio e tecnico",
-    description: "Penso no impacto para o cliente e no que e viavel para o time entregar.",
+    title: "Visão de negócio e técnico",
+    description: "Penso no impacto para o cliente e no que é viável para o time entregar.",
   },
 ];

@@ -15,10 +15,10 @@ function ContactSection() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const subject = encodeURIComponent(`Contato portfolio - ${form.name}`);
+    const subject = encodeURIComponent(`Contato portfólio - ${form.name}`);
     const body = encodeURIComponent(`${form.message}\n\nDe: ${form.name} (${form.email})`);
     window.location.href = `mailto:${profile.email}?subject=${subject}&body=${body}`;
-    setStatus("Seu cliente de email foi aberto para enviar a mensagem.");
+    setStatus("Seu cliente de e-mail foi aberto para enviar a mensagem.");
   };
 
   return (
@@ -26,7 +26,7 @@ function ContactSection() {
       <SectionHeading
         kicker="Contato"
         title="Vamos conversar"
-        description="Se fizer sentido para o seu time, me chama. Respondo por email ou LinkedIn."
+        description="Se fizer sentido para o seu time, me chama. Respondo por e-mail ou LinkedIn."
       />
       <div className="grid gap-6 md:grid-cols-2">
         <motion.form
@@ -37,7 +37,7 @@ function ContactSection() {
           className="glass space-y-4 p-6"
         >
           <input name="name" value={form.name} onChange={handleChange} required className="input-style" placeholder="Seu nome" />
-          <input name="email" value={form.email} onChange={handleChange} required type="email" className="input-style" placeholder="Seu email" />
+          <input name="email" value={form.email} onChange={handleChange} required type="email" className="input-style" placeholder="Seu e-mail" />
           <textarea name="message" value={form.message} onChange={handleChange} required rows={5} className="input-style resize-none" placeholder="Sua mensagem" />
           <button type="submit" className="btn-primary w-full justify-center">
             <Send size={16} /> Enviar mensagem
@@ -62,10 +62,10 @@ function ContactSection() {
             <Github size={18} /> GitHub
           </a>
           <a href={profile.links.cv} download="Gabriel-Bratfisch-Curriculo-2026.pdf" className="contact-link">
-            <Download size={18} /> Download Curriculo
+            <Download size={18} /> Download Currículo
           </a>
           <p className="rounded-xl border border-dashed border-slate-300 p-4 text-sm text-slate-600 dark:border-slate-700 dark:text-slate-300">
-            Aberto a oportunidades em suporte, implantacao e inicio em desenvolvimento web.
+            Aberto a oportunidades em suporte, implantação e início em desenvolvimento web.
           </p>
         </motion.div>
       </div>

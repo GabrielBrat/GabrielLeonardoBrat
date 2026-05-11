@@ -8,8 +8,8 @@ function AboutSection() {
     <section id="sobre" className="section-container">
       <SectionHeading
         kicker="Sobre mim"
-        title="Base pratica de operacao"
-        description="Suporte, implantacao e contato direto com cliente. Hoje aplico essa base na minha migracao para desenvolvimento."
+        title="Base prática de operação"
+        description="Suporte, implantação e contato direto com cliente. Hoje aplico essa base na minha migração para desenvolvimento."
       />
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -19,7 +19,7 @@ function AboutSection() {
           viewport={{ once: true }}
           className="glass p-6"
         >
-          <h3 className="mb-4 text-lg font-semibold">Como cheguei ate aqui</h3>
+          <h3 className="mb-4 text-lg font-semibold">Como cheguei até aqui</h3>
           <div className="space-y-4 text-sm leading-relaxed text-slate-700 dark:text-slate-200">
             {profile.longBio.map((text) => (
               <p key={text}>{text}</p>

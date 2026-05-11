@@ -7,8 +7,8 @@ function SkillsSection() {
     <section id="habilidades" className="section-container">
       <SectionHeading
         kicker="Habilidades"
-        title="O que eu uso na pratica"
-        description="Separei por rotina real: o que uso todo dia, o que ja tenho experiencia e o que ainda estou evoluindo."
+        title="O que eu uso na prática"
+        description="Separei por rotina real: o que uso todo dia, o que já tenho experiência e o que ainda estou evoluindo."
       />
 
       <div className="grid gap-6 md:grid-cols-2">

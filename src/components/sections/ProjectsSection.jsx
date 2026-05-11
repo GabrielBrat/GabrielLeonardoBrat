@@ -63,7 +63,7 @@ function ProjectsSection() {
                   ) : null}
                   {project.repo ? (
                     <a href={project.repo} className="btn-secondary text-xs" target="_blank" rel="noreferrer">
-                      <Github size={14} /> {project.repoLabel ?? "Codigo"}
+                      <Github size={14} /> {project.repoLabel ?? "Código"}
                     </a>
                   ) : null}
                 </div>

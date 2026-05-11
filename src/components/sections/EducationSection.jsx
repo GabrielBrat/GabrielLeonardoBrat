@@ -7,14 +7,14 @@ function EducationSection() {
   return (
     <section id="formacao" className="section-container">
       <SectionHeading
-        kicker="Formacao"
+        kicker="Formação"
         title="Base de estudo"
-        description="Formacao, cursos e idiomas que sustentam minha transicao para desenvolvimento."
+        description="Formação, cursos e idiomas que sustentam minha transição para desenvolvimento."
       />
       <div className="grid gap-6 md:grid-cols-3">
         <motion.article initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="glass p-6">
           <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold">
-            <GraduationCap size={18} /> Formacao
+            <GraduationCap size={18} /> Formação
           </h3>
           <ul className="space-y-3 text-sm text-slate-700 dark:text-slate-200">
             {education.map((item) => (
@@ -29,7 +29,7 @@ function EducationSection() {
 
         <motion.article initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.06 }} className="glass p-6">
           <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold">
-            <Award size={18} /> Certificacoes
+            <Award size={18} /> Certificações
           </h3>
           <ul className="space-y-3 text-sm text-slate-700 dark:text-slate-200">
             {certifications.map((item) => (

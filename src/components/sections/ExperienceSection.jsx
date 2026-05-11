@@ -6,9 +6,9 @@ function ExperienceSection() {
   return (
     <section id="experiencia" className="section-container">
       <SectionHeading
-        kicker="Experiencia"
-        title="Trabalho direto na operacao"
-        description="Atendimento, implantacao, treinamento e resolucao de incidente. Sempre com contato proximo com cliente e time tecnico."
+        kicker="Experiência"
+        title="Trabalho direto na operação"
+        description="Atendimento, implantação, treinamento e resolução de incidentes. Sempre com contato próximo com cliente e time técnico."
       />
 
       <div className="relative ml-2 border-l border-brand-400/30 pl-6">
